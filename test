@@ -1,0 +1,13 @@
+% git clone git@github.com:shkh/TrainingAssistant.git
+  
+% cd TrainingAssistant 
+% git submodule init 
+% git submodule update 
+% cd static/Jcrop 
+% git checkout master
+
+% pip install -r freezed.txt
+
+Add images into static/img
+% python views.py 
+This command starts the Flask server on port 5000, visit http://localhost:5000.
